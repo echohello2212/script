@@ -1,0 +1,193 @@
+Sample Output from Script
+
+=== SYSTEM INFO ===
+Linux testsubject1 6.12.38+kali-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.12.38-1kali1 (2025-08-12) x86_64 GNU/Linux
+
+=== CURRENT USER ===
+admin1
+
+=== USERS WITH SHELL ===
+root:x:0:0:root:/root:/usr/bin/zsh
+postgres:x:114:118:PostgreSQL administrator:/var/lib/postgresql:/bin/bash
+admin1:x:1000:1000:boss,,,:/home/admin1:/usr/bin/zsh
+
+=== NETWORK ===
+    inet 127.0.0.1/8 scope host lo
+    inet6 ::1/128 scope host noprefixroute 
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute eth0
+    inet6 fd17:625c:f037:2:d5e3:bfd6:2781:d5bb/64 scope global temporary dynamic 
+    inet6 fd17:625c:f037:2:a00:27ff:fe50:4d5/64 scope global dynamic mngtmpaddr noprefixroute 
+    inet6 fe80::a00:27ff:fe50:4d5/64 scope link noprefixroute 
+
+=== PROCESSES ===
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.2  0.3  23784 14604 ?        Ss   00:40   0:03 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    00:40   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    00:40   0:00 [pool_work
+root           4  0.0  0.0      0     0 ?        I<   00:40   0:00 [kworker/R
+root           5  0.0  0.0      0     0 ?        I<   00:40   0:00 [kworker/R
+root           6  0.0  0.0      0     0 ?        I<   00:40   0:00 [kworker/R
+root           7  0.0  0.0      0     0 ?        I<   00:40   0:00 [kworker/R
+root           8  0.0  0.0      0     0 ?        I<   00:40   0:00 [kworker/R
+root          13  0.0  0.0      0     0 ?        I<   00:40   0:00 [kworker/R
+root          14  0.0  0.0      0     0 ?        I    00:40   0:00 [rcu_tasks
+root          15  0.0  0.0      0     0 ?        I    00:40   0:00 [rcu_tasks
+root          16  0.0  0.0      0     0 ?        I    00:40   0:00 [rcu_tasks
+root          17  0.0  0.0      0     0 ?        S    00:40   0:00 [ksoftirqd
+root          18  0.1  0.0      0     0 ?        I    00:40   0:02 [rcu_preem
+root          19  0.0  0.0      0     0 ?        S    00:40   0:00 [rcu_exp_p
+root          20  0.0  0.0      0     0 ?        S    00:40   0:00 [rcu_exp_g
+root          21  0.0  0.0      0     0 ?        S    00:40   0:00 [migration
+root          22  0.0  0.0      0     0 ?        S    00:40   0:00 [idle_inje
+root          23  0.0  0.0      0     0 ?        S    00:40   0:00 [cpuhp/0]
+root          24  0.0  0.0      0     0 ?        S    00:40   0:00 [cpuhp/1]
+root          25  0.0  0.0      0     0 ?        S    00:40   0:00 [idle_inje
+root          26  0.1  0.0      0     0 ?        S    00:40   0:01 [migration
+root          27  0.1  0.0      0     0 ?        S    00:40   0:02 [ksoftirqd
+root          32  0.0  0.0      0     0 ?        S    00:40   0:00 [kdevtmpfs
+root          33  0.0  0.0      0     0 ?        I<   00:40   0:00 [kworker/R
+root          34  0.0  0.0      0     0 ?        S    00:40   0:00 [kauditd]
+root          35  0.0  0.0      0     0 ?        S    00:40   0:00 [khungtask
+root          36  0.0  0.0      0     0 ?        S    00:40   0:00 [oom_reape
+root          37  0.0  0.0      0     0 ?        I    00:40   0:00 [kworker/u
+root          38  0.0  0.0      0     0 ?        I<   00:40   0:00 [kworker/R
+root          39  0.0  0.0      0     0 ?        S    00:40   0:00 [kcompactd
+root          40  0.0  0.0      0     0 ?        SN   00:40   0:00 [ksmd]
+root          41  0.0  0.0      0     0 ?        SN   00:40   0:01 [khugepage
+root          42  0.0  0.0      0     0 ?        I<   00:40   0:00 [kworker/R
+root          43  0.0  0.0      0     0 ?        I<   00:40   0:00 [kworker/R
+root          44  0.0  0.0      0     0 ?        I<   00:40   0:00 [kworker/R
+root          45  0.0  0.0      0     0 ?        S    00:40   0:00 [irq/9-acp
+root          47  0.0  0.0      0     0 ?        I<   00:40   0:00 [kworker/R
+root          48  0.0  0.0      0     0 ?        I<   00:40   0:00 [kworker/R
+root          49  0.0  0.0      0     0 ?        I<   00:40   0:00 [kworker/R
+root          50  0.0  0.0      0     0 ?        I<   00:40   0:00 [kworker/0
+root          51  0.0  0.0      0     0 ?        S    00:40   0:00 [kswapd0]
+root          59  0.0  0.0      0     0 ?        I<   00:41   0:00 [kworker/R
+root          63  0.0  0.0      0     0 ?        I<   00:41   0:00 [kworker/R
+root          64  0.0  0.0      0     0 ?        I<   00:41   0:00 [kworker/R
+root          65  0.0  0.0      0     0 ?        I<   00:41   0:00 [kworker/R
+root          70  0.0  0.0      0     0 ?        I<   00:41   0:00 [kworker/R
+root          74  0.0  0.0      0     0 ?        I<   00:41   0:00 [kworker/u
+root         110  0.0  0.0      0     0 ?        I    00:41   0:00 [kworker/u
+root         183  0.0  0.0      0     0 ?        I    00:41   0:00 [kworker/0
+root         192  0.0  0.0      0     0 ?        I<   00:41   0:00 [kworker/R
+root         213  0.0  0.0      0     0 ?        I    00:41   0:00 [kworker/u
+root         245  0.0  0.0      0     0 ?        I<   00:41   0:00 [kworker/R
+root         259  0.0  0.0      0     0 ?        S    00:41   0:00 [scsi_eh_0
+root         266  0.0  0.0      0     0 ?        I<   00:41   0:00 [kworker/R
+root         267  0.0  0.0      0     0 ?        S    00:41   0:00 [scsi_eh_1
+root         269  0.0  0.0      0     0 ?        I<   00:41   0:00 [kworker/R
+root         272  0.0  0.0      0     0 ?        S    00:41   0:00 [scsi_eh_2
+root         274  0.0  0.0      0     0 ?        I<   00:41   0:00 [kworker/R
+root         276  0.0  0.0      0     0 ?        S    00:41   0:00 [irq/18-vm
+root         278  0.0  0.0      0     0 ?        I<   00:41   0:00 [kworker/R
+root         280  0.2  0.0      0     0 ?        I    00:41   0:04 [kworker/1
+root         328  0.0  0.0      0     0 ?        S    00:41   0:00 [jbd2/sda1
+root         329  0.0  0.0      0     0 ?        I<   00:41   0:00 [kworker/R
+root         391  0.0  0.4  51176 17404 ?        Ss   00:41   0:00 /usr/lib/s
+root         435  0.0  0.2  37028 11280 ?        Ss   00:41   0:00 /usr/lib/s
+root         438  0.0  0.0      0     0 ?        I<   00:41   0:01 [kworker/1
+root         441  0.0  0.0      0     0 ?        S    00:41   0:00 [psimon]
+root         549  0.0  0.1   8380  6232 ?        Ss   00:41   0:00 /usr/sbin/
+root         552  0.0  0.1 309024  7080 ?        Ssl  00:41   0:00 /usr/libex
+message+     557  0.2  0.1  10156  7024 ?        Ss   00:41   0:03 /usr/bin/d
+polkitd      561  0.0  0.2 382604 10216 ?        Ssl  00:41   0:00 /usr/lib/p
+root         564  0.0  0.2  19044  9288 ?        Ss   00:41   0:01 /usr/lib/s
+root         643  0.0  0.4 336376 19356 ?        Ssl  00:41   0:00 /usr/sbin/
+root         671  0.0  0.3 390936 12336 ?        Ssl  00:41   0:00 /usr/sbin/
+root         712  0.0  0.0      0     0 ?        I<   00:41   0:00 [kworker/R
+root         713  0.0  0.0      0     0 ?        I<   00:41   0:00 [kworker/R
+root         716  0.0  0.0   6888  2688 ?        Ss   00:41   0:00 /usr/sbin/
+root         752  0.1  0.0 357268  3292 ?        Sl   00:41   0:01 /usr/sbin/
+root         847  0.0  0.0      0     0 ?        I<   00:41   0:00 [kworker/u
+root        1567  0.0  0.1 381020  7092 ?        SLsl 00:41   0:00 /usr/sbin/
+root        1585  5.5  2.9 372632 119584 tty7    Ssl+ 00:41   1:18 /usr/lib/x
+root        1587  0.0  0.0   8160  2488 tty1     Ss+  00:41   0:00 /sbin/aget
+root        1609  0.0  0.0      0     0 ?        S    00:41   0:00 [psimon]
+rtkit       1639  0.0  0.0  21472  3092 ?        SNsl 00:41   0:00 /usr/libex
+root        1711  0.0  0.2 171112  8896 ?        Sl   00:42   0:00 lightdm --
+admin1      1722  0.0  0.3  22800 12732 ?        Ss   00:42   0:00 /usr/lib/s
+admin1      1724  0.0  0.0  23536  3820 ?        S    00:42   0:00 (sd-pam)
+admin1      1744  0.0  0.1   9300  6108 ?        Ss   00:42   0:00 /usr/bin/d
+admin1      1746  0.0  0.3 101936 12336 ?        S<sl 00:42   0:00 /usr/bin/p
+admin1      1747  0.0  0.1  84752  5140 ?        Ssl  00:42   0:00 /usr/bin/p
+admin1      1748  0.0  0.2 183140 10132 ?        SLsl 00:42   0:00 /usr/bin/g
+admin1      1749  0.0  0.0   7232  3356 ?        Ss   00:42   0:00 /usr/bin/m
+admin1      1750  0.0  0.4 480384 18612 ?        S<sl 00:42   0:00 /usr/bin/w
+admin1      1751  0.0  0.2  99292  8892 ?        S<sl 00:42   0:00 /usr/bin/p
+admin1      1769  0.1  0.9 421836 36532 ?        Ssl  00:42   0:01 xfce4-sess
+admin1      1829  0.0  0.0      0     0 ?        Z    00:42   0:00 [notify-se
+admin1      1836  0.0  0.9 428848 39888 ?        Ssl  00:42   0:00 /usr/lib/x
+admin1      1851  0.0  0.1 381172  7528 ?        Ssl  00:42   0:00 /usr/libex
+admin1      1863  0.0  0.1   8752  4964 ?        S    00:42   0:00 /usr/bin/d
+admin1      1867  0.0  0.1 312664  7780 ?        Ssl  00:42   0:00 /usr/libex
+admin1      1870  0.0  0.1 168752  7452 ?        Sl   00:42   0:00 /usr/libex
+admin1      1879  0.0  0.1 398376  6884 ?        Sl   00:42   0:00 /usr/libex
+admin1      1893  0.0  0.0  10676  1680 ?        Ss   00:42   0:00 /usr/bin/s
+admin1      1902  0.0  0.0 155472  3500 ?        SLsl 00:42   0:00 /usr/bin/g
+admin1      1905  2.2  3.1 886900 124784 ?       Sl   00:42   0:30 xfwm4
+admin1      1915  0.0  0.6 348088 27196 ?        Sl   00:42   0:00 xfsettings
+admin1      1921  0.0  0.1 165236  5936 ?        Ssl  00:42   0:00 /usr/libex
+admin1      1922  0.2  1.0 506236 43636 ?        Sl   00:42   0:03 xfce4-pane
+admin1      1931  0.8  1.1 580380 46696 ?        Sl   00:42   0:11 Thunar --d
+admin1      1938  0.0  1.0 427652 41952 ?        Sl   00:42   0:01 /usr/lib/x
+admin1      1943  1.0  1.2 296160 48984 ?        Sl   00:42   0:13 /usr/lib/x
+admin1      1944  0.0  0.6 419864 26928 ?        Sl   00:42   0:00 /usr/lib/x
+admin1      1945  0.8  0.7 272312 28544 ?        Sl   00:42   0:10 /usr/lib/x
+admin1      1946  0.0  0.9 358356 38968 ?        Sl   00:42   0:00 /usr/lib/x
+admin1      1947  0.0  0.9 424504 37048 ?        Sl   00:42   0:00 /usr/lib/x
+admin1      1949  0.1  0.9 285428 37556 ?        Sl   00:42   0:02 /usr/lib/x
+admin1      1956  0.0  0.9 424784 37556 ?        Sl   00:42   0:00 /usr/lib/x
+admin1      1979  0.2  1.4 475452 59964 ?        Sl   00:42   0:03 xfdesktop
+root        1983  0.1  0.2 318700 10296 ?        Ssl  00:42   0:01 /usr/libex
+admin1      2019  0.0  0.4 264912 18288 ?        Sl   00:42   0:00 /usr/libex
+admin1      2020  0.0  0.9 281128 36760 ?        Sl   00:42   0:01 xfce4-scre
+admin1      2022  0.0  0.6 410388 25536 ?        Sl   00:42   0:00 xfce4-powe
+admin1      2027  0.0  0.2 529400  8904 ?        Sl   00:42   0:00 xiccd
+admin1      2039  0.0  0.0  12424  1848 ?        Ssl  00:42   0:00 xcape -e S
+admin1      2041  0.0  1.0  64720 40484 ?        S    00:42   0:01 /usr/bin/p
+admin1      2051  0.0  0.1 308524  6608 ?        Sl   00:42   0:00 /usr/libex
+colord      2054  0.0  0.3 315900 14164 ?        Ssl  00:42   0:00 /usr/libex
+admin1      2076  0.0  1.0 586052 42856 ?        Sl   00:42   0:00 nm-applet
+admin1      2091  0.1  1.5 603068 60356 ?        Sl   00:42   0:01 /usr/bin/p
+admin1      2224  0.0  0.2 390764 11208 ?        Ssl  00:42   0:00 /usr/libex
+root        2228  0.0  0.3 478392 13936 ?        Ssl  00:42   0:00 /usr/libex
+admin1      2250  0.0  0.1 307936  6708 ?        Ssl  00:42   0:00 /usr/libex
+admin1      2257  0.0  0.1 307832  6528 ?        Ssl  00:42   0:00 /usr/libex
+admin1      2262  0.0  0.2 390036  8800 ?        Ssl  00:42   0:00 /usr/libex
+admin1      2268  0.0  0.1 308888  7024 ?        Ssl  00:42   0:00 /usr/libex
+admin1      2269  0.0  0.4 378500 18300 ?        Ssl  00:42   0:00 /usr/libex
+admin1      2286  0.0  0.1 168884  6580 ?        Ssl  00:42   0:00 /usr/libex
+admin1      2290  0.0  0.2 534236  8864 ?        Sl   00:42   0:00 /usr/libex
+admin1      2438  0.0  0.5 556916 20248 ?        Ssl  00:42   0:00 /usr/libex
+admin1      2444  0.0  0.1 308748  6452 ?        Ssl  00:42   0:00 /usr/libex
+admin1      2457  0.0  0.1 539716  7096 ?        Ssl  00:42   0:00 /usr/libex
+root        2471  0.0  0.0   2584  1896 ?        Ss   00:42   0:00 fusermount
+admin1      2476  0.0  0.4 479288 19336 ?        Ssl  00:42   0:00 /usr/libex
+root        2997  0.0  0.0      0     0 ?        I<   00:43   0:00 [kworker/0
+root        5189  0.0  0.0      0     0 ?        I    00:47   0:00 [kworker/0
+root        5238  0.0  0.0      0     0 ?        I<   00:47   0:00 [kworker/1
+root       10146  0.2  0.0      0     0 ?        I    00:57   0:00 [kworker/1
+admin1     12266  0.0  0.1 307612  6332 ?        Ssl  01:01   0:00 /usr/lib/x
+root       12472  0.0  0.0      0     0 ?        I    01:02   0:00 [kworker/u
+root       12698  0.0  0.0      0     0 ?        I    01:02   0:00 [kworker/1
+admin1     13430  3.8  1.6 652896 64504 ?        Sl   01:04   0:01 /usr/bin/q
+admin1     13437  1.1  0.1  10320  6216 pts/0    Ss   01:04   0:00 /usr/bin/z
+admin1     13796  0.0  0.0   7088  3252 pts/0    S+   01:04   0:00 /bin/bash 
+admin1     13801  100  0.1   9532  4200 pts/0    R+   01:04   0:00 ps aux
+
+=== DISK USAGE ===
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.9G     0  1.9G   0% /dev
+tmpfs           393M  980K  392M   1% /run
+/dev/sda1        19G   15G  3.3G  82% /
+tmpfs           2.0G  4.0K  2.0G   1% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           2.0G  192K  2.0G   1% /tmp
+tmpfs           1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           393M  116K  393M   1% /run/user/1000
+
+=== OPEN PORTS ===
+Netid  State   Recv-Q   Send-Q     Local Address:Port     Peer Address:Port 
